@@ -8,6 +8,7 @@ import {
   TextField,
   Toolbar,
 } from "@mui/material";
+
 import MovieIcon from "@mui/icons-material/Movie";
 import { Box } from "@mui/system";
 import { getAllMovies } from "../api-helpers/api-helpers.js";
@@ -54,7 +55,7 @@ const Header = () => {
                 sx={{ input: { color: "white" } }}
                 variant="standard"
                 {...params}
-                placeholder="Search Across Multiple Movies"
+                placeholder="Search Movies here..."
               />
             )}
           />
