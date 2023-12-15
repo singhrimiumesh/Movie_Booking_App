@@ -1,15 +1,15 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Route, Routes } from "react-router-dom";
-import Admin from "./components/Auth/Admin";
-import Auth from "./components/Auth/Auth";
-import Booking from "./components/Bookings/Booking";
-import Header from "./components/Header";
-import HomePage from "./components/HomePage";
-import AddMovie from "./components/Movies/AddMovie";
-import Movies from "./components/Movies/Movies";
-import AdminProfile from "./profile/AdminProfile";
-import UserProfile from "./profile/UserProfile";
+import Admin from "./components/Auth/Admin.js";
+import Auth from "./components/Auth/Auth.js";
+import Booking from "./components/Bookings/Booking.js";
+import Header from "./components/Header.js";
+import HomePage from "./components/HomePage.js";
+import AddMovie from "./components/Movies/AddMovie.js";
+import Movies from "./components/Movies/Movies.js";
+import AdminProfile from "./profile/AdminProfile.js";
+import UserProfile from "./profile/UserProfile.js";
 import { adminActions, userActions } from "./store";
 
 function App() {

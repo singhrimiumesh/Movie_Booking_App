@@ -7,7 +7,7 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useState } from "react";
-import { addMovie } from "../../api-helpers/api-helpers";
+import { addMovie } from "../../api-helpers/api-helpers.js";
 const labelProps = {
   mt: 1,
   mb: 1,

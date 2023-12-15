@@ -1,8 +1,8 @@
 import { Box, Button, Typography } from '@mui/material'
 import React, { useEffect, useState } from 'react'
-import MovieItem from './Movies/MovieItem'
+import MovieItem from './Movies/MovieItem.js'
 import { Link } from 'react-router-dom'
-import { getAllMovies } from '../api-helpers/api-helpers'
+import { getAllMovies } from '../api-helpers/api-helpers.js'
 
 const Homepage = () => {
     const [movies, setmovies] = useState()
